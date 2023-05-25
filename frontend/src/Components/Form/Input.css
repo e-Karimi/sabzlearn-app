@@ -1,0 +1,6 @@
+.success{
+    border-right: 3px solid var(--second-color) !important;
+}
+.error{
+    border-right: 3px solid #055160 !important;
+}

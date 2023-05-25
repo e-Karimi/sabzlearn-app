@@ -1,0 +1,54 @@
+.basic-comment-section{
+    width: 100%;
+    margin: 10px 0;
+    background-color: var(--second-bg);
+    padding: 15px 25px;
+}
+ .word-link{
+    color: var(--second-color);
+    cursor: pointer;
+    border-bottom:1px solid cornflowerblue;
+    padding: 5px  0;
+    margin: 0 5px;
+}
+.word-link:hover{
+    color: var(--main-color);
+}
+.basic-comment-section h3{
+    font-size: 17px;
+}
+.basic-comment-section h4{
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+.basic-comment-section .basic-comment-info {
+    font-size: 14px;
+    line-height: 2;
+    margin: 10px 0;
+    text-align: justify;
+}
+ .basic-comment-form textarea{
+    width: 100%;
+    height: 120px;
+    background-color: var(--bg-button) ;
+    color: var(--text);
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 2px;
+
+ }
+
+
+.basic-comment-section .submit-btn{
+    color: var(--text);
+    background-color: var(--second-color);
+    border-radius: 2px;
+    font-size: 13px;
+    margin: 20px 0;
+    cursor: pointer;
+    padding: 6px;
+    outline: 0;
+    border: 0;
+}

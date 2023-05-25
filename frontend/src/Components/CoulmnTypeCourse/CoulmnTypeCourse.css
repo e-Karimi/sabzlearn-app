@@ -1,0 +1,118 @@
+/*---------coulmn-course-box------ */
+
+ .coulmn-course-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--bg) ;
+    border-bottom: 1px solid var(--bg-button);
+    position: relative;
+}
+
+.coulmn-course-box .img-wrapper {
+    width: 230px;
+    border-radius: 0px;
+}
+
+.img-wrapper img {
+    width: 100%;
+}
+
+.coulmn-course-box .course-body {
+    padding: 5px 12px;
+    width: 100%;
+}
+
+.coulmn-course-box .course-name {
+    font-size: 14px;
+    text-align: justify;
+    color: #f1f1f1 !important;
+    font-weight: 400 !important;
+}
+
+.coulmn-course-box .course-name:hover {
+    color: var(--second-color);
+}
+
+.coulmn-course-box .course-details {
+    margin-top: 10px;
+}
+
+.coulmn-course-box  .price {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coulmn-course-box .off {
+    text-align: center;
+    background: rgb(232, 31, 31);
+    width: 39px;
+    height: 21px;
+    line-height: 24px;
+    border-radius: 15px;
+    font-size: 14px;
+    position: absolute;
+    top: 15px;
+    right: 6px;
+
+}
+
+.coulmn-course-box .lin-through{
+    text-decoration: line-through !important; 
+    font-size: 11px !important;
+    color: var(--mid-gray) !important;
+    display: none;
+}
+.coulmn-course-box .currency{
+    font-size: 11px;
+    font-weight: 600 !important;
+}
+
+.coulmn-course-box .price .free{
+    font-size: 17px;
+    color: var(--second-color);
+ 
+}
+.img-stuff-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ----------------------media---------------------- */
+@media screen and (min-width:425px){
+    .coulmn-course-box .lin-through{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:768px){
+    .coulmn-course-box .course-body {
+        padding: 0px 12px;
+    }
+
+    .coulmn-course-box .course-name {
+        font-size: 16px;
+    }
+    .coulmn-course-box  .course-price {
+        font-size: 15px;
+    }
+    .coulmn-course-box  .price {
+        font-size: 15px;
+        justify-content: flex-start;
+    }
+    .coulmn-course-box .currency{
+        font-size: 12px;
+    }
+    .coulmn-course-box .lin-through{
+       margin-left: 25px;
+       font-size: 14px !important;
+    }
+    .coulmn-course-box .new-price{
+       font-size: 16px !important;
+     }
+}
+
+
+
+

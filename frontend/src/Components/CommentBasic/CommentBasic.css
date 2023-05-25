@@ -1,0 +1,126 @@
+.comment-section {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.comment-header-title {
+    margin-bottom: 22px;
+   
+}
+.comment-header-title span:last-child {
+    color: var(--main-color);
+    margin-right: 5px;
+}
+.subject-title{
+    color: var(--second-color) !important;
+    margin-right: 5px;
+}
+.caution {
+    background-color: var(--bg-caution);
+    color: #333;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 500px;
+}
+
+.comment-item {
+    width: 100%;
+    color: #e6e6e6;
+    margin-bottom: 10px;
+    /* background-color: blue; */
+}
+
+.comment-answer {
+    border-bottom: 1px dashed var(--text);
+    margin-bottom: 30px;
+    /* background-color: red; */
+}
+.comment-answer:last-child{
+  border-bottom: none;
+}
+
+.comment-question-header {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comment-question-name {
+    margin-left: 5px;
+}
+
+.comment-question-answer-btn {
+    font-size: 10px;
+    background-color: var(--bg-button);
+    padding: 3px 10px;
+    border-radius: 10px;
+    max-width: 140px;
+    margin: 25px 0;
+    display: inline-block;
+    margin-right: 50%;
+    color: var(--text) !important;
+}
+
+.comment-status {
+    background: var(--second-color);
+    color: var(--text) !important;
+    padding: 5px;
+    border-radius: 1px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.comment-question-body {
+    width: 100%;
+    margin-top: 14px;
+
+}
+
+.comment-question-body p {
+    font-size: 13px;
+}
+
+.CommentTextarea-frame{
+    width: 100%;
+    border: 1px solid var( --dark-gray);
+    padding: 30px;
+    background-color: var(--bg);
+}
+
+
+
+/* ----------------------media---------------------- */
+
+@media screen and (min-width:768px) {
+
+    .comment-header-title {
+        margin-bottom: 46px;
+    }
+
+    .comment-header-title {
+        font-size: 18px;
+    }
+    .comment-question-header {
+        font-size: 15px;
+    }
+
+    .comment-question-body p {
+        font-size: 15px ;
+    }
+
+    .comment-status {
+        font-size: 12px;
+      
+    }
+
+    .comment-question-answer-btn {
+        font-size: 12px;
+        max-width: 173px;
+
+    }
+
+  
+}
+

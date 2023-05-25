@@ -1,0 +1,15 @@
+/* -------------content-container----------------- */
+
+/* a wrapper in order to keep the contents responsive in desktop size */
+
+.content-container {
+    width: 100%;
+    max-width: var(--max-width) !important;
+    margin: 0 auto !important;
+}
+
+
+.alert-box-container{
+    position: relative;
+    background-color: aqua;
+}

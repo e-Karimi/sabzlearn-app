@@ -1,0 +1,32 @@
+.comment-warning{
+    line-height: 2;
+}
+.comment-warning .title{
+ font-size: 15px;
+}
+.comment-warning .body{
+ font-size: 13px;
+}
+
+
+
+@media screen and (min-width:768px){
+    .comment-warning .title{
+        font-size: 16px;
+       }
+       .comment-warning .body{
+        font-size: 15px;
+       }
+       
+}
+
+@media screen and (min-width:1024px){
+    .comment-warning .title{
+        font-size: 17px;
+       }
+       .comment-warning .body{
+        font-size: 16px;
+       }
+       
+       
+}

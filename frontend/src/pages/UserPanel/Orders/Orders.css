@@ -1,0 +1,104 @@
+.order {
+    padding: 0px;
+}
+
+table#order,
+thead,
+tbody {
+    width: 100%;
+    display: block;
+}
+
+#order thead {
+    font-size: 13px !important;
+}
+
+#order tbody {
+    font-size: 12px !important;
+}
+
+thead tr {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#order tbody tr {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+thead tr th {
+    flex: 0 0 25%;
+    text-align: center;
+}
+
+#order thead th:first-child {
+    flex: 0 0 10%;
+}
+
+#order thead th:last-child {
+    flex: 0 0 12%;
+}
+
+#order tbody tr td {
+    flex: 0 0 25%;
+    text-align: center;
+}
+
+#order tbody tr td.hashtag{
+    display: inline-flex;
+}
+
+#order tbody td:first-child {
+    flex: 0 0 10%;
+}
+
+#order tbody td:last-child {
+    flex: 0 0 12%;
+    max-width: 60px;
+}
+
+#order small {
+    font-size: 10px;
+    margin-right: 5px;
+    color: var(--mid-gray);
+}
+
+td.show-order-details {
+    background-color: var(--main-color);
+    padding: 3px 6px;
+    border-radius: 3px;
+    display: none;
+
+}
+
+.show-order-details:hover a {
+    color: var(--text)
+}
+
+.show-order-details:hover {
+    background-color: #2bc36a;
+}
+
+th.actions {
+    display: none;
+}
+
+/* ----------------------media---------------------- */
+@media screen and (min-width:425px) {
+
+    th.actions {
+        display: block;
+    }
+
+    td.show-order-details {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .order {
+        padding: 25px;
+    }
+}

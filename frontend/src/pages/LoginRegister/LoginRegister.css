@@ -1,0 +1,125 @@
+.my-account {
+    width: 100%;
+}
+.my-account .title {
+    font-size: 22px;
+    text-align: center;
+    background-color: var(--second-bg);
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+.my-account h3{
+    color: var(--text);
+}
+.my-account .flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px;
+}
+
+.my-account .login {
+    flex: 0 0 50%;
+    border-bottom: 1px solid var(--mid-gray);
+    padding: 30px 10px ;
+    margin-top: 20px;
+}
+
+.my-account .register {
+    flex: 0 0 50%;
+    padding: 30px 10px;
+}
+
+.my-account .form-item {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.my-account .form-item input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    height: 32px;
+    padding:5px 10px;
+    background-color: var(--bg-button);
+}
+
+.my-account .form-item label {
+    margin-bottom: 5px;
+}
+.my-account .submit-btn{
+    padding: 5px 13px;
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    margin-top: 20px ;
+    color: #fff;
+}
+
+.button-bg-success{
+    background-color: var(--second-color);
+ 
+}
+.button-bg-error{
+    background-color:#055160;
+}
+/*---- recaptcha ------*/
+.recaptcha-container{
+    margin-top: 25px;
+}
+.recaptcha-container iframe{
+    width: 270px !important;
+}
+.rc-anchor-error-msg-container {
+    display: none !important;
+}
+
+/* ----------------------media---------------------- */
+@media screen and (min-width:375px) {
+    .recaptcha-container iframe{
+        width: 300px !important;
+    }
+}
+@media screen and (min-width:768px) {
+    .my-account .flex-container {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 16px;  
+    }
+
+    .my-account .login {
+        border-left: 1px solid var(--mid-gray);
+        border-bottom: 0; 
+    }
+
+    .my-account .login {
+        padding: 30px 30px;
+    }
+    
+    .my-account .register {
+        padding: 30px 30px;
+        margin-top: 20px;
+    }
+    
+    .my-account h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .my-account .flex-container {
+        padding: 25px 0;
+    }
+
+    .my-account .login {
+        padding: 30px 0 30px 30px; 
+    }
+    
+    .my-account .register {
+        padding: 30px 30px 30px 0 ;
+    }
+    .my-account h3{
+        font-size: 19px;
+    }
+}
+

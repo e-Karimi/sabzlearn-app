@@ -1,0 +1,110 @@
+/*--------- course-accordion--- ------- */
+.course-accordion {
+  margin: 20px 0 50px 0;
+  width: 100%;
+}
+
+.course-accordion-item {
+  width: 100%;
+  background: var(--second-bg) !important;
+  margin-bottom: 16px;
+}
+
+
+.course-accordion-header {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  background: var(--second-bg) !important;
+  outline: 0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid var(--bg) !important;
+  padding: 0 15px;
+  cursor: pointer;
+  font-family: shabnam;
+  color: var(--text) !important;
+}
+
+.course-accordion-header .course-accordion-title {
+  /* background: red; */
+  flex: 1 0 75% !important;
+  font-size: 14px;
+  text-align: right;
+  color: var(--main-color);
+  padding: 0 15px;
+}
+
+.course-accordion-body {
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  align-items: center;
+  color: var(--text) !important;
+  border-bottom: 1px solid #1a1b29;
+  height: 60px;
+}
+
+.course-accordion-body .right {
+  display: flex;
+  align-items: start;
+  flex: 0 0 78%;
+  /* background: blue; */
+  font-size: 14px;
+}
+.course-accordion-body .left {
+  /* background: red; */
+  flex: 0 0 22%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.course-accordion-body .right .number {
+  width: 29px;
+  height: 29px;
+  background: rgb(225 225 225 / 10%);
+  border-radius: 50%;
+  font-size: 14px;
+  margin-left: 10px;
+  line-height: 33px;
+  text-align: center;
+  color: var(--light-gray);
+}
+
+.course-accordion-body .play{
+  font-size: 17px;
+  margin-left: 8px;
+  color:var(--light-gray);
+}
+
+.toggle-icon {
+  font-size: 19px;
+  flex: 0 0 9%;
+  /* background: blue; */
+  display: flex;
+  justify-content: end;
+}
+
+.time-lesson{
+  font-size: 13px;
+  margin-left: 5px;
+}
+/* ---------------------------------- */
+
+@media screen and (min-width:768px){
+  .course-accordion-header {
+    min-height: 60px;
+  }
+  
+  .course-accordion-header .course-accordion-title {
+    font-size: 16px;
+  }
+
+  .course-accordion-body .right {
+    font-size: 15px;
+  }
+  .course-accordion-body {
+    padding:10px 15px;
+  }
+}

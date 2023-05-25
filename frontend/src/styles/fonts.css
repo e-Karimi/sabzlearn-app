@@ -1,0 +1,65 @@
+/************ shabnam************ */
+@font-face {
+    font-family: shabnam;
+    font-weight: normal;
+    src: url('./../fonts/shabnam/Shabnam.woff2'), url('./fonts/shabnam/Shabnam.woff')
+}
+
+@font-face {
+    font-family: shabnam;
+    font-weight: bold;
+    src: url('./../fonts/shabnam/Shabnam-Bold.woff2'), url('./fonts/shabnam/Shabnam-Bold.woff')
+}
+
+@font-face {
+    font-family: shabnam;
+    font-weight: light;
+    src: url('./../fonts/shabnam/Shabnam-Light.woff2'), url('./fonts/shabnam/Shabnam-Light.woff')
+}
+
+/************ iranSanse************ */
+
+@font-face {
+    font-family: iransans;
+    font-weight: normal;
+    src: url('./../fonts/IRANSans/IRANSansWeb(FaNum)_Medium.woff2'),
+        url('./../fonts/IRANSans/IRANSansWeb(FaNum)_Medium.woff')
+}
+
+@font-face {
+    font-family: iransans;
+    font-weight: bold;
+    src: url('./../fonts/IRANSans/IRANSansWeb\(FaNum\)_Bold.woff2'),
+        url('./../fonts/IRANSans/IRANSansWeb(FaNum)_Bold.woff');
+}
+
+@font-face {
+    font-family: iransans;
+    font-weight: light;
+    src: url('./../fonts/IRANSans/IRANSansWeb(FaNum)_Light.woff2'),
+        url('./../fonts/IRANSans/IRANSansWeb(FaNum)_Light.woff');
+}
+
+/************ vazir ************ */
+@font-face {
+    font-family: vazir;
+    font-weight: normal;
+    src: url('./../fonts/vazir/Vazirmatn-Regular.woff2');
+
+}
+
+@font-face {
+    font-family: vazir;
+    font-weight: bold;
+    src: url('./../fonts/vazir/Vazirmatn-Bold.woff2');
+
+}
+
+@font-face {
+    font-family: vazir;
+    font-weight: light;
+    src: url('./../fonts/vazir/Vazirmatn-Light.woff2');
+
+}
+
+

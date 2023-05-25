@@ -1,0 +1,26 @@
+.article-search-box{
+    display: flex;
+    margin-bottom: 20px;
+}
+.article-search-box .img-wrapper{
+    height: 80px;
+    margin-left: 10px;
+    flex: 0 0 80px;
+}
+.article-search-box img{
+    width: 100%; 
+}
+.article-search-box .category{
+    font-size: 12px;
+    color: var(--second-color);
+    display: flex;
+    align-items: center;
+}
+
+.article-search-box  .dot-icon{
+    font-size: 19px;
+}
+.article-search-box .title{
+    font-size: 15px;
+    text-align: justify;
+}

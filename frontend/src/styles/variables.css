@@ -1,0 +1,26 @@
+/************ Variable ************ */
+:root {
+    --main-color: #20bb46;
+    --second-color: #4C9D15;
+    --off-color: #F44336;
+    --pink:#e91e63;
+
+    --white: #fff;
+    --white-50: #f0f0f0;
+
+    --light-gray: #ebebeb;
+    --mid-gray: #c7c7c7;
+    --gray: #929292;
+    --dark-gray: #80808080;
+
+    --black: #333;
+    --black-blue: #070929;
+    --border-color: #6d6e7a;
+
+    --max-width: 1025px;
+    --bg: #242532;
+    --second-bg: #2F3041;
+    --bg-button:#e1e1e11a;
+    --bg-caution:rgb(255,193,7);
+    --text: #FCF6FC;
+}

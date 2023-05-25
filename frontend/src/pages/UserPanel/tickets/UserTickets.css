@@ -1,0 +1,220 @@
+.tickets {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.tickets-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.send-ticket-btn {
+    background-color: var(--second-color);
+    padding: 5px 8px;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+.ticket-body {
+    padding: 20px 0px;
+}
+
+/*----- ticket-btn -------*/
+
+.ticket-btn-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ticket-btn {
+    width: 90px;
+    height: 90px;
+    background-color: var(--second-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    outline: 0;
+    border: 0;
+    color: var(--light-gray);
+    border-radius: 5px;
+}
+
+.ticket-btn span:first-child {
+    font-size: 22px;
+}
+
+.ticket-btn span:last-child {
+    font-size: 13px;
+    font-weight: 500 !important;
+}
+
+.ticket-btn .text {
+    margin-bottom: 5px;
+    font-weight: 300 !important;
+}
+
+.all span:first-child {
+    color: #0dcaf0;
+}
+
+.open span:first-child {
+    color: var(--bg-caution);
+}
+
+.close span:first-child {
+    color: var(--main-color);
+}
+
+.ticket-body .title-page {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ticket-body  .mini-border {
+    width: 60px !important;
+    height: 4px;
+    background-color: var(--mid-gray);
+    margin:7px auto !important;
+}
+
+
+/*----- ticket-box -------*/
+.ticket-body .flex-container {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.ticket-box {
+    min-width: 285px;
+    background-color: var(--light-gray);
+    padding: 10px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-right: 4px solid var(--bg-caution);
+    margin-bottom: 15px;
+    flex: 0 0 100%;
+}
+
+.ticket-item {
+    flex: 0 0 100%;
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.ticket-title {
+    font-size: 13px;
+    font-weight: 505 !important;
+    color: #222;
+}
+.ticket-title:hover {
+    color: var(--main-color); 
+}
+.ticket-item small {
+    font-size: 11px;
+    color: #8a8a8a;
+    background: #ddd;
+    padding: 2px 5px;
+    margin-right: 7px;
+    font-weight: 400;
+}
+
+.user-data {
+    position: relative;
+}
+
+.user-data .message-count {
+    position: absolute;
+    top: 0;
+    background-color: var(--pink);
+    color: var(--text);
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 17px;
+}
+
+.user-data .comment-icon {
+    font-size: 21px;
+}
+
+.user-data .username {
+    font-size: 15px;
+    margin-left: 6px;
+    font-weight: 400;
+}
+
+.course-name {
+    font-size: 13px;
+    font-weight: 505 !important;
+    color: #444;
+    font-family: shabnam !important;
+}
+.course-name:hover {
+    color: var(--main-color);
+}
+
+.ticket-date {
+    font-size: 13px;
+}
+
+.space{
+margin-top: 30px;
+}
+/* ----------------------media---------------------- */
+
+@media screen and (min-width:375px) {
+    .ticket-btn {
+        box-shadow: 4px 1px 2px 2px var(--dark-gray);
+        border-radius: 11px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+
+    .ticket-btn-wraper {
+        justify-content: center;
+    }
+
+    .ticket-btn {
+        width: 110px;
+        height: 110px;
+        margin-left: 15px;
+    }
+
+    .ticket-box {
+        width: 460px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .ticket-box {
+        width: 500px;
+        padding: 15px 10px 10px;
+    }
+
+    .ticket-title {
+        font-size: 14px;
+    }
+   
+    .course-name {
+        font-size: 14px;
+    }
+}

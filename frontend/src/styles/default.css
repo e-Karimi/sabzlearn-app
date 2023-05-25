@@ -1,0 +1,52 @@
+@import './reset.css';
+@import './fonts.css';
+@import './variables.css';
+@import './commonStyle.css';
+
+html,
+body {
+    touch-action: manipulation;
+}
+
+body {
+    direction: rtl;
+    font-family: 'shabnam', 'vazir', 'iransans';
+    font-size: 15px;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'shabnam';
+    font-weight: 400;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 400ms ease-in-out;
+}
+a:hover{
+    color:inherit;
+}
+li {
+    list-style: none;
+}
+
+i {
+    user-select: none;
+  }
+
+  .fa-num-bold{
+    font-family: 'iransans' !important;
+    font-weight: bold;
+  }
+
+  .fa-num{
+    font-family: 'iransans' !important;
+    font-weight: normal;
+  }

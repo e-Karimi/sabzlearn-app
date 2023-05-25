@@ -1,0 +1,139 @@
+.send-ticket {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+#send-ticket-form{
+    margin-top: 20px;
+}
+.tickets-btn{
+    background-color: rgb(63, 131, 255);
+    padding: 5px 8px;
+    font-size: 13px;
+    border-radius: 2px;
+}
+.color{
+    color: rgb(63, 131, 255);
+    font-size: 14px;
+}
+.form-group-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-ticket .form-group {
+    margin-bottom: 25px;
+}
+
+.send-ticket label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.send-ticket select {
+    background-color: var(--bg-button);
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+    width: 100%;
+    max-width: 330px;
+    font-weight: 300 !important;
+    font-size: 12px;
+}
+.send-ticket select option{
+color: #222;
+}
+
+.send-ticket input:not(input[type="file"]) {
+    background-color: var(--bg-button);
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+    width: 100%;
+    max-width: 330px;
+    font-weight: 300 !important;
+    font-size: 13px;
+}
+.send-ticket input[type="file"] {
+    background-color: var(--second-bg);
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+    width: 100% !important;
+    height: 70px;
+    font-weight: 300 !important;
+    font-size: 13px;
+}
+.send-ticket textarea {
+    background-color: var(--bg-button);
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+    width: 100%;
+    height: 100px;
+    font-weight: 300 !important;
+    font-size: 14px;
+}
+.send-ticket .change-password h2 {
+    font-size: 16px !important;
+    color: var(--second-color);
+    margin: 40px 0 20px 0;
+    border-bottom: 1px solid var(--light-gray);
+    padding: 10px 0;
+}
+
+.send-ticket p {
+    font-size: 12px !important;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.send-ticket button {
+    background-color: var(--second-color);
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+
+/* ----------------------media---------------------- */
+
+@media screen and (min-width:425px) {
+    .form-group-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .send-ticket .form-group {
+        flex: 0 0 49%;
+    }
+
+    .send-ticket label {
+        font-size: 12px;
+    }
+    
+    .send-ticket input {
+        width: 97%;
+    }
+    .send-ticket p {
+        font-size: 13px !important;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .send-ticket {
+        margin-top: 0px;
+    }
+    
+    .send-ticket label {
+        font-size: 14px;
+    }
+    
+    .send-ticket p {
+        font-size: 13px !important;
+        text-align: right;
+    }
+}

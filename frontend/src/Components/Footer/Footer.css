@@ -1,0 +1,256 @@
+footer {
+    background-color: #2F3041;
+    width: 100%;
+
+}
+
+.footer-container {
+    padding: 30px 16px 15px;
+}
+
+.footer-about {
+    margin-bottom: 23px;
+}
+
+.footer-about h4 {
+    font-size: 19px;
+    color: var(--second-color);
+    padding: 0 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.footer-about p {
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: 300 !important;
+    color: var(--light-gray);
+}
+
+.footer-info {
+    margin-bottom: 23px;
+    display: grid;
+    gap: 10px 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(min-content, max-content);
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-template-areas: "item1 item2"
+        "item3 item3"
+        "item4 item5";
+}
+
+/* --- grid classes -------------- */
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+    justify-self: center;
+}
+
+/* ---------------------------- */
+
+.footer-link-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    padding-left: 19px;
+}
+
+.footer-link-1 a,
+.footer-link-2 a {
+    border-bottom: 1px solid var(--gray);
+    padding: 13px 0;
+}
+
+.footer-link-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    padding-left: 10px;
+}
+
+.flex-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lable {
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-size: 11px;
+    line-height: 11px;
+    margin-right: 7px;
+}
+
+.popular {
+    background-color: var(--main-color);
+}
+
+.new {
+    background-color: var(--off-color);
+}
+
+.visiting-hour {
+    margin: 25px 0;
+}
+
+.visiting-hour h4,
+.contact-us h4 {
+    margin-bottom: 8px;
+}
+
+.visiting-hour p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.contact-us span {
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+.contact-item {
+    display: flex;
+}
+
+.contact-item .icon {
+    margin-left: 6px;
+    font-size: 21px !important;
+}
+
+.enamad img {
+    width: 75px;
+    background: #fff;
+    padding: 2px;
+    border-radius: 10px;
+    display: block;
+}
+
+.footer-copyright {
+    margin-top: 26px;
+}
+
+.footer-copyright p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer-copyright span {
+    color: var(--main-color);
+    font-size: 14px;
+}
+
+
+/* ---------media------------------- */
+
+@media screen and (min-width:375px) {
+    .item4 {
+        align-self: center;
+    }
+
+    .enamad img {
+        width: 90px;
+        padding: 10px;
+    }
+
+    .contact-us span {
+        line-height: 1.6;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .footer-info {
+        gap: 0 5px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: minmax(min-content, max-content);
+        grid-template-areas: "item1 item2 item3 item4 item5";
+        align-items: center;
+
+    }
+
+    .visiting-hour {
+        margin: 0;
+    }
+
+    .visiting-hour p {
+        font-size: 13px;
+    }
+
+    .contact-us span {
+        font-size: 13px;
+    }
+
+    .contact-item .icon {
+        font-size: 18px !important;
+    }
+
+    .footer-copyright {
+        margin-top: 47px;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .footer-container {
+        padding: 30px 0px 20px;
+    }
+
+    .footer-info {
+        grid-template-columns: minmax(180px, max-content);
+        gap: 0px;
+    }
+
+    .visiting-hour h4,
+    .contact-us h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .visiting-hour p {
+        font-size: 15px;
+        line-height: 1.9;
+    }
+
+    .contact-us span {
+        font-size: 14px;
+    }
+
+    .contact-item .icon {
+        font-size: 21px !important;
+    }
+
+    .footer-link-1 a,
+    .footer-link-2 a {
+
+        padding: 12px 0;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+    }
+    
+    .footer-copyright span {
+        font-size: 15px;
+    }
+
+}

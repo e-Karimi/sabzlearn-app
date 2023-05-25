@@ -1,0 +1,152 @@
+.comment-section {
+    width: 100%;
+    margin-bottom: 30px;
+    min-height: 400px;
+    /* background-color: blueviolet; */
+}
+
+.comment-header-title {
+    margin-bottom: 22px;
+   
+}
+.comment-header-title span:last-child {
+    color: var(--main-color);
+}
+
+.info-message {
+    color: var(--second-color);
+    padding: 10px;
+    width: 100%;
+    font-weight: 500 !important;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.info-icon{
+    font-size: 23px;
+    margin-left: 7px;
+    color: var(--bg-caution);
+}
+
+.comment-item {
+    width: 100%;
+    color: #e6e6e6;
+    margin-bottom: 10px;
+    /* background-color: blue; */
+}
+
+.comment-answer {
+    border-bottom: 1px dashed var(--text);
+    margin-bottom: 30px;
+    /* background-color: red; */
+}
+.comment-answer:last-child{
+  border-bottom: none;
+}
+
+.comment-question-header {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comment-question-name {
+    margin-left: 5px;
+}
+
+
+.comment-question-answer-btn {
+    text-align: center;
+    font-size: 10px;
+    background-color: var(--bg-button);
+    padding: 3px 5px;
+    border-radius: 10px;
+    margin: 25px;
+    margin-right: 50%;
+    color: var(--text) !important;
+    width: 100px;  
+}
+.comment-question-answer-btn button{
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.comment-question-login-btn{
+    text-align: center;
+    font-size: 10px;
+    background-color: var(--bg-button);
+    padding: 3px 5px ;
+    border-radius: 10px;
+    margin: 25px;
+    margin-right: 50%;
+    color: var(--text) !important;
+    width: 140px;
+}
+
+.comment-owner {
+    background: var(--main-color);
+    color: var(--text) !important;
+    color:#fff !important;
+    padding: 5px;
+    border-radius: 18px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.comment-question-body {
+    width: 100%;
+    margin-top: 14px;
+
+}
+
+.comment-question-body p {
+    font-size: 13px;
+}
+
+
+
+
+/* ----------------------media---------------------- */
+
+@media screen and (min-width:768px) {
+
+    .comment-header-title {
+        margin-bottom: 46px;
+    }
+
+    .comment-header-title {
+        font-size: 18px;
+    }
+    .comment-question-header {
+        font-size: 15px;
+    }
+
+    .comment-question-body p {
+        font-size: 15px ;
+    }
+
+    .comment-owner {
+        font-size: 12px;
+      
+    }
+
+    .comment-question-answer-btn {
+        font-size: 12px;
+        max-width: 173px;
+
+    }
+
+    .info-message {
+        font-size: 17px;
+    }
+
+  
+}
+
+@media screen and (min-width:1024px) {
+    .comment-section {
+        min-height: 500px; 
+    }
+}

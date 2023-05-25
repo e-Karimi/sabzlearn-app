@@ -1,0 +1,146 @@
+/*----- alert-box -------*/
+.alert-box-wrapper{
+    position: relative;
+}
+/* ---------------alert-box-------------- */
+.alert-box{
+    color: var(--second-color);
+    margin: 25px 27px 20px 0;
+    font-size: 16px;
+    font-family: shabnam;
+    position: absolute;
+    top: -4px;
+    right:0px;
+    
+}
+
+.CommentTextarea-section .alert-box{
+    margin:0 !important;
+    top:-70px;
+}
+
+.result-not-find .alert-box{
+    margin: 25px 0px 20px 0;
+    font-size: 15px;
+}
+/* userpanel */
+.bought-courses .alert-box {
+    margin: 25px 0px 20px 0;
+    font-size: 15px;
+}
+
+.send-ticket .alert-box{
+    margin: 25px 0px 20px 0;
+    font-size: 15px;
+}
+
+.edit-account .alert-box{
+    margin: 25px 0px 20px 0;
+    font-size: 15px;
+}
+.bought-courses .checkout-message .alert-box {
+    color: var(--second-color);
+    margin: 0;
+    font-size: 15px;
+    font-family: shabnam;
+    position: absolute;
+    top: -64px;
+    right: 0px;
+}
+
+/* ------------------------------ */
+.alert-box-icon{
+    font-size: 21px;
+    color: #FFC83D;
+}
+.alert-message{
+    margin:0 5px;
+}
+/* ------cart------------------------ */
+.cart .alert-box {
+    color: var(--second-color);
+    margin: -25px 0px 0px 0;
+    font-size: 14px;
+    font-family: shabnam;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+}
+
+/*----- checkout------- */
+.checkout .alert-box {
+    color: var(--second-color);
+    margin:0;
+    font-size: 16px;
+    font-family: shabnam;
+    position: absolute;
+    top: -27px;
+    right: 0px;
+}
+
+/* ----------------------media---------------------- */
+
+@media screen and (min-width:375px) {
+    .CommentTextarea-section .alert-box{
+        top:-50px;
+    }
+    .cart .alert-box {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .alert-box{
+        right: 18px;
+    }
+
+    .CommentTextarea-section .alert-box{
+        right: 0 !important;
+    }
+
+    .bought-courses .alert-box {
+        font-size: 16px;
+    }
+
+    .edit-account .alert-box{
+        margin: 25px -18px 20px 0;
+        font-size: 16px;
+    }
+
+}
+
+
+@media screen and (min-width:1099px) {
+    .alert-box {
+        right: -31px;
+        font-size: 18px;
+    }
+
+    .result-not-find .alert-box{
+        right: 0;
+        font-size: 16px;
+    }
+
+    .bought-courses .alert-box {
+        margin: 25px 30px 20px 0;
+        font-size: 16px;
+    }
+    
+    .send-ticket .alert-box{
+        margin: 25px 30px 20px 0;
+        font-size: 16px;
+    }
+
+    .edit-account .alert-box{
+        margin: 25px 30px 20px 0;
+        font-size: 16px;
+    }
+    
+}
+
+
+@media screen and (min-width:1440px) {
+    .alert-box {
+        right: -27px;
+    }
+}

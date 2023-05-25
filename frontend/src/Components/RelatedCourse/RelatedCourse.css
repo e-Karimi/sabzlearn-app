@@ -1,0 +1,104 @@
+.related-course {
+    width: 100%;
+    margin: 25px 0 75px 0;
+    text-align: center;
+    /* background-color: red; */
+
+}
+
+.related-course .section-title {
+    margin: 25px 0;
+}
+
+.related-course .section-title h3 {
+    font-size: 16px;
+    color: var(--main-color);
+    margin: 8px;
+    display: inline-block;
+}
+
+.section-title:before,
+.section-title:after {
+    background-color: var(--second-bg);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 26%;
+}
+
+.related-course-slider .course-box {
+    width: 250px;
+    height: 310px;
+    margin: 0 auto;
+}
+
+/* ---------- Swiper Slider-------*/
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--course-box) !important;
+
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 26px !important;
+    font-weight: 600 !important;
+    color: var(--main-color);
+}
+
+/* ------------media-------------*/
+
+
+@media screen and (min-width:375px) {
+    .related-course-slider {
+        padding: 0 12px;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .related-course .section-title h3 {
+        font-size: 20px;
+    }
+
+    .related-course-slider .course-box {
+        width: 180px;
+        height: 305px;
+        margin: 0 auto;
+   
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .related-course .section-title h3 {
+        font-size: 25px;
+    }
+
+    .section-title:before,
+    .section-title:after {
+        width: 34%;
+    }
+
+    .related-course-slider .course-box {
+        width: 230px;
+        height: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .related-course-slider {
+        padding: 0 16px 0 6px;
+    }
+    
+    .section-title:before,
+    .section-title:after {
+        width: 37%;
+    }
+
+  
+  
+}

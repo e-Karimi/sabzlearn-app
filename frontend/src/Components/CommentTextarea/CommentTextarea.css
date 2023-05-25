@@ -1,0 +1,95 @@
+.CommentTextarea-section{
+    width: 100%;
+}
+
+.CommentTextarea-frame{
+    width: 100%;
+    border: 1px solid var( --dark-gray);
+    padding: 30px;
+    background-color: var(--bg);
+    margin-top: 120px;
+}
+
+.comment-respond {
+    width: 100%;
+    background: var(--second-bg);
+    padding: 15px 25px;
+    margin-bottom: 23px;
+}
+
+.comment-respond-title {
+    margin-bottom: 10px;
+}
+.comment-respond-title  small{
+   font-size: 10px;
+   margin-right: 7px;
+   cursor: pointer;
+   background-color: var(--light-gray);
+   color: #333;
+   padding: 2px 3px;
+   border-radius: 2px;
+}
+.comment-respond-form {
+    width: 100%;
+}
+
+.comment-respond-rating label {}
+
+.comment-respond-rating select {
+    width: 98%;
+    outline: 0;
+    border: 0;
+    padding: 5px 6px;
+    border-radius: 6px;
+    background: var(--bg-button);
+    margin: 12px 0;
+}
+
+.comment-respond-rating select option {
+    color: var(--text) !important;
+    font-family: 'shabnam' !important;
+    font-size: 13px;
+    background-color: #343a40 !important;
+}
+
+.comment-respond-body label {
+    margin: 10px 0;
+}
+
+.comment-respond-body textarea {
+    height: 120px;
+    color: var(--text) !important;
+    font-family: 'shabnam' !important;
+    font-size: 13px;
+    background: var(--bg-button);
+    border-radius: 2px;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    width: 98%;
+}
+
+.comment-respond-form .submit {
+    background: var(--main-color);
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+
+/* ----------------------media---------------------- */
+
+@media screen and (min-width:768px) {
+    .comment-respond-title {
+        font-size: 16px;
+    }
+
+    .comment-respond-title  small {
+        font-size: 12px;
+  
+    }
+}

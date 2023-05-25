@@ -1,0 +1,97 @@
+/* ----for styles related to input ,refer to UserSendTicket.css -----*/
+
+.edit-account {
+    margin-top: 30px;
+}
+
+.form-group-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-account .form-group {
+    margin-bottom: 18px;
+}
+
+.edit-account label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.edit-account input {
+    background-color: var(--bg-button);
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+    width: 100%;
+    max-width: 330px;
+    font-weight: 300 !important;
+    font-size: 14px;
+}
+
+.edit-account .change-password h2 {
+    font-size: 16px !important;
+    color: var(--second-color);
+    margin: 20px 0 20px 0;
+    border-bottom: 1px solid var(--light-gray);
+    padding: 10px 0;
+}
+
+.edit-account p {
+    font-size: 12px !important;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.edit-account button {
+    background-color: var(--second-color);
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+
+
+/* ----------------------media---------------------- */
+
+@media screen and (min-width:425px) {
+    .form-group-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .edit-account .form-group {
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+
+    .edit-account label {
+        font-size: 12px;
+    }
+    
+    .edit-account input {
+        width: 95%;
+    }
+    .edit-account p {
+        font-size: 11px !important;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .edit-account {
+        margin-top: 0px;
+    }
+    
+    .edit-account label {
+        font-size: 14px;
+    }
+    
+    .edit-account p {
+        font-size: 13px !important;
+        text-align: right;
+    }
+}

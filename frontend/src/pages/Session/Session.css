@@ -1,0 +1,226 @@
+.session {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+    background: linear-gradient(to right, var(--second-bg) 65%, #5e5f82);
+}
+
+
+/* -----------main------------ */
+
+.main-session {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--second-bg);
+}
+
+.main-session-header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 25px 25px 25px 50px;
+}
+
+.main-session-header .right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-session-header .right span.right-icon {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-session-header .right span:first-child {
+    margin-left: 20px;
+    font-size: 30px !important;
+}
+
+.main-session-header .right span.text {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.main-session-header .left {
+    display: none;
+}
+
+.main-session-header .left span.left-icon {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.main-session-header .left span.text {
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+.main-session-body {
+    width: 100%;
+    background-color: var(--bg);
+    padding: 40px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.session-video {
+    width: 100%;
+}
+
+.session-video video {
+    width: 100%;
+}
+
+.downlod-btn {
+    outline: 0;
+    border: 0;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 2px;
+    margin: 25px 0;
+    background-color: var(--dark-gray);
+}
+
+.downlod-btn:hover {
+    background-color: rgb(98, 98, 98);
+    /* color: #333; */
+}
+
+.main-session .other-session {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 20px;
+    background-color: var(--bg);
+}
+
+.other-session .previous {
+    cursor: pointer;
+}
+
+.other-session.next {
+    cursor: pointer;
+}
+
+.other-session .direction-icon {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* -----------sidebar------------ */
+
+.sidebar-session {
+    flex: 0 0 30%;
+    display: none;
+}
+
+.sidebar-session-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    padding: 25px;
+    background-color: var(--second-bg);
+    background-color: transparent;
+}
+
+.sidebar-session-header .book{
+    margin-left: 6px;
+    font-size: 30px;
+}
+
+.sidebar-session-body {
+    background-color:  var(--bg);
+    height: 500px;
+    margin: 0px 0 10px 0;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.sidebar-session-body .course-accordion {
+    margin: 3px 0 5px 0;
+  }
+  
+
+.sidebar-session-body .course-accordion-item {
+    margin-bottom: 5px;
+}
+
+.sidebar-session-body .course-accordion-body .right .number {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* ----------------------media---------------------- */
+
+@media screen and (min-width:768px) {
+    .main-session-header {
+        justify-content: space-evenly;
+    }
+
+    .main-session-header .left {
+        display: flex;
+        align-items: center;
+    }
+
+    .downlod-btn {
+        font-size: 17px;
+    }
+
+    .main-session-header .right span.text {
+        font-size: 15px;
+    }
+
+    .main-session-header .left span.text {
+        font-size: 15px;
+    }
+
+    .redirect-session h1{
+        font-size: 25px;
+    }
+    .redirect-session h3{
+        font-size: 18px;
+    }
+    .redirect-session a{
+        font-size: 16px;
+        padding: 5px 8px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .session {
+        flex-direction: row;
+    }
+
+    .sidebar-session {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-session {
+        flex: 0 0 70%;
+    }
+
+    .redirect-session h1{
+        font-size: 27px;
+    }
+
+    .redirect-session a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .redirect-session{
+        padding: 25px 0;
+    }
+}

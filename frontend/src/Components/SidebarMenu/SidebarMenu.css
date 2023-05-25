@@ -1,0 +1,123 @@
+/********** hamburger ********/
+#hamburger {
+  z-index: 0;
+  width: 30px;
+  height: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  visibility: visible;
+  opacity: 1;
+}
+
+#hamburger .line {
+  height: 2px;
+  background: #ddd;
+  margin: 6px auto;
+  border-radius: 2px;
+  backface-visibility: hidden;
+}
+
+#hamburger.active #one {
+  transform: rotate(45deg) translateX(6px) translateY(6px);
+}
+
+#hamburger.active #two {
+  opacity: 0;
+}
+
+#hamburger.active #three {
+  transform: rotate(-45deg) translateX(10px) translateY(-12px);
+}
+
+/* *******mobile-menu********** */
+
+.mobile-menu-container{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /* background-color: blueviolet; */
+}
+.mobile-menu {
+  padding-top: 70px;
+  z-index: 999;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background: var(--white);
+  width: 280px;
+  height: 100vh;
+  transition: all 0.5s ease-out;
+  display: flex;
+  flex-direction: column;
+  visibility: visible;
+  opacity: 1;
+  overflow-y: auto;
+  overflow-x: unset;
+}
+
+@media (min-width: 1024px) {
+  .mobile-menu {
+    visibility: hidden !important;
+    opacity: 0;
+  }
+}
+
+.content-container {
+  width: 100%;
+}
+
+/******** serch-box ***********/
+.mobile-menu .serch-box {
+  width: 90%;
+  margin: 0 auto;
+  padding: 4px;
+  background-color: var(--mid-gray);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.mobile-menu .serch-box input {
+  background-color: transparent;
+  padding: 0px 10px;
+  border: 1px solid var(---gray);
+  color: var(--black);
+  width: 80%;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+.mobile-menu .serch-box input::placeholder {
+  font-family: vazir;
+  color: #666;
+}
+
+.mobile-menu .search-icon {
+  font-size: 23px;
+  color: var(--black);
+}
+
+.mobile-menu .serch-box button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 20%;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+
+/******** accordion ***********/
+
+.menu_accordion-container {
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  color: var(--black)
+}
+
+

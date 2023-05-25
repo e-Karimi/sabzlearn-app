@@ -1,0 +1,224 @@
+.checkout {
+    width: 100%;
+    margin: 15px auto;
+}
+
+.checkout a:hover {
+    color: var(--light-gray);
+}
+.checkout-container {
+    margin: 30px 15px;
+}
+.checkout .cart-header-container {
+    width: 99%;
+}
+.checkout-body-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.checkout-userData{
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-userData form{
+    border: 1px solid #5F6F75;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0 10px 0;
+}
+
+.checkout-userData .checkout-discount{
+    border: 1px solid #5F6F75;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.checkout-discount p{
+    margin-bottom: 10px;
+}
+
+.discount-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.checkout-discount .apply-discount {
+    font-size: 15px;
+    padding: 7px  3px;
+    border-radius: 2px;
+    margin: 15px 0;
+    border: 0;
+    outline: 0;
+    flex: 0 0 100%;
+}
+.checkout-discount .apply-discount:hover{
+    background-color: var(--dark-gray);
+}
+.checkout-discount .input-discount {
+    background-color: var(--bg-button);
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: 0;
+    border: 1px dashed var(--light-gray);
+    flex: 0 0 100%;
+}
+
+.discount-color{
+    color:var(--second-color);
+}
+
+.checkout-discount .input-discount::placeholder {
+    color: var(--light-gray);
+    font-weight: 300 !important;
+}
+
+.checkout-cartData{
+    flex: 0 0 100%;
+    border: 1px solid #5F6F75;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* ---------checkout-userData -------*/
+
+.checkout-userData  .form-group-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-userData  .form-group {
+    margin-bottom: 18px;
+}
+
+.checkout-userData  label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.checkout-userData input {
+    background-color: var(--bg-button);
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+    width: 100%;
+    font-weight: 300 !important;
+    font-size: 14px;
+}
+
+/* ----------- table #checkout-table --------- */
+table,
+tbody,
+thead {
+    display: block;
+}
+
+#checkout-table tbody tr {
+    border-bottom: 1px solid #546268;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#checkout-table .price {
+    font-weight: 600 !important;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    flex: 0 0 35%;
+}
+#checkout-table  .currency{
+    margin-right: 5px;
+}
+#checkout-table .product-title{
+    flex: 0 0 60%;
+    margin-left: 5px;
+}
+.checkout-cartData p{
+    margin: 12px 0;
+}
+
+.accept-rule{
+    display: flex;
+    align-items: flex-start;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+.payment-way{
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    margin: 15px 0 8px 0;
+}
+input[type='checkbox']{
+    margin-left: 5px;
+}
+.register-order{
+    background-color: var(--pink);
+    padding: 7px;
+    border-radius: 2px;
+    width:100% ;
+    margin: 36px 0 18px 0;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.register-order:hover{
+    background-color: #ce1955;
+}
+
+
+/* ------------media---------------------- */
+
+@media screen and (min-width:768px) {
+    .checkout-body-container {
+        flex-direction: row;
+    }
+
+    .checkout-userData{
+        flex: 0 0 48%;
+        max-height: 90vh;
+    }
+    
+    .checkout-cartData{
+        flex: 0 0 48%;
+    }
+    .checkout-cartData{
+        margin: 15px 25px 10px 0;
+    }
+
+    .discount-wrapper{
+       flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .checkout-discount .apply-discount {
+        font-size: 12px;
+        flex: 0 0 26%; 
+    }
+    
+    .checkout-discount .input-discount {
+        flex: 0 0 70%;
+    }
+
+    .checkout-discount p{
+        margin-bottom: 0px;
+    }
+    .checkout-userData .checkout-discount {
+        margin-bottom: 0px;
+    }
+
+    .register-order {
+        width: 90%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .checkout-discount .apply-discount {
+        font-size: 15px;
+    }
+}

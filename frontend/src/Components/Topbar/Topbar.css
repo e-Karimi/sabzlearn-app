@@ -1,0 +1,56 @@
+.top-bar {
+    width: 100%;
+    background-color: #1e1b26;
+    color: var(--mid-gray);
+    padding: 2px 8px 2px 8px;
+    display: none;
+    font-size: 12px;
+    font-weight: 300 !important;
+}
+.top-bar  .flex-container{
+    display: flex;
+    align-items: center;
+    padding-right:10px;
+    justify-content: space-between;
+}
+.top-bar .right {
+    flex: 0 0 70%;
+}
+
+.top-bar .right ul {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .right ul li {
+    margin-left: 13px;
+}
+
+.top-bar .left {
+    flex: 0 0 30%;
+}
+
+.top-bar .left .social-wrapper {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.top-bar .left .social-wrapper span:first-child{
+   cursor: default;
+}
+.top-bar .left .social-wrapper span {
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  
+}
+.top-bar .left .social-wrapper span.email-text {
+   font-size: 15px;
+}
+
+@media screen and (min-width:1023px) {
+    .top-bar {
+        display: block;
+    }
+}

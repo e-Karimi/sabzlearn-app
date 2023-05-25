@@ -1,0 +1,18 @@
+.about{
+    padding: 25px 20px 40px 20px ;
+    width: 100%;
+}
+.about p {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.8;
+    font-weight: 300 !important;
+}
+
+/* ----------------------media---------------------- */
+
+@media screen and (min-width:1100px) {
+    .about p {
+        font-size: 17px;  
+    }
+}
