@@ -16,9 +16,9 @@ https://github.com/e-Karimi/sabzlearn-app/assets/28589917/68af8318-d3be-4d2d-a46
 2- Mobile size
 https://github.com/e-Karimi/sabzlearn-app/assets/28589917/ea3c8073-9944-4599-8f15-656b74c00648
 
-3- DEsktop size
+3- Desktop size
 https://github.com/e-Karimi/sabzlearn-app/assets/28589917/4eacf201-6a39-44e4-81b9-3f4dd23d2e1c
 
-4- DEsktop size
+4- Desktop size
 https://github.com/e-Karimi/sabzlearn-app/assets/28589917/589efc1f-ab6a-4ec5-9433-4a32510b7b98
 
