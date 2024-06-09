@@ -1,8 +1,8 @@
 # sabzlearn app
-## sabzlearn is an online shop which it's cart and user panel has been designed.
+## sabzlearn is an online shop which it's cart and user panel has been developed.
 
-+ ### it has been designed first mobile 
-+ ### Technologies  used in  frontend ( html,css,javascript,React)
++ ### it has been implemented first mobile 
++ ### Technologies  used in  frontend ( html,css,javascript,React & React Libraries)
 + ### backend is based on  Nodejs
 
 
