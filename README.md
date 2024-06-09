@@ -1,8 +1,10 @@
 # sabzlearn app
-## sabzlearn is an online shop which it's cart and user panel has been developed.
+## Implemented using HTML, CSS, React, and React Libraries, this project features a responsive design and functions as a single-page application (SPA). In addition to pages like home, products, single product, article, category, and search, there are also sections for the cart and user panel. 
 
-+ ### it has been implemented first mobile 
-+ ### Technologies  used in  frontend ( html,css,javascript,React & React Libraries)
+
++ ### first mobile
++ ### A single-page application (SPA) 
++ ### Technologies used in frontend ( html,css,javascript,React & React Libraries)
 + ### backend is based on  Nodejs
 
 
