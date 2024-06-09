@@ -1,4 +1,4 @@
-# sabzlearn app ☘🍃🌱
+# sabzlearn app 🌱
 ## Implemented using HTML, CSS, React, and React Libraries, this project features a responsive design and functions as a single-page application (SPA). In addition to pages like home, products, single product, article, category, and search, there are also sections for the cart and user panel. React Context is utilized for state management and implemented search and filter component. 
 
 
