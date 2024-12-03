@@ -7,6 +7,14 @@
 + #### Technologies used in frontend ( html,css,javascript,React & React Libraries)
 + #### backend is based on  Nodejs
 
+## 💻  Run the project 
+In the root of project go to these folders (frontend and backend) and use this command
+#### sabzlearn-app/frontend> 
+#### sabzlearn-app/backend>
+
+```bash
+npm run dev
+```
 
 ## 🎬 <i>Videos</i>
 
