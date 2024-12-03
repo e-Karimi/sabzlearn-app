@@ -9,7 +9,6 @@ export default function useOutsideClick(containerRef, menuRef, callback) {
     }
 
     useEffect(() => {
-
         document.addEventListener('touchstart', handleClickOutside)
 
         return () => {

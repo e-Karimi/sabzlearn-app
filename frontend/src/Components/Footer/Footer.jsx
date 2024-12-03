@@ -66,7 +66,7 @@ export default function Footer() {
 
                         </div>
                         <div className="footer-copyright fa-num">
-                            <p>طراحی شده  توسط <span>انسیه کریمی</span> - اردیبهشت 1402</p>
+                            <p>طراحی شده با💚 توسط <span>انسیه کریمی</span> </p>
                         </div>
                     </div>
                 </div>
